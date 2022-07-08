@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<ReportParameters name="Customer - Top 10 List" id="111">
+    <Options>
+        <Field name="ShowType">0</Field>
+        <Field name="NoOfRecordsToPrint">10</Field>
+        <Field name="ChartType">0</Field>
+    </Options>
+    <DataItems>
+        <DataItem name="Customer">VERSION(1) SORTING(Field1) WHERE(Field55=1(..2022-07-04))</DataItem>
+        <DataItem name="Integer">VERSION(1) SORTING(Field1)</DataItem>
+    </DataItems>
+</ReportParameters>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16" standalone="yes"?>
+<ReportParameters name="Item Price List" id="7050">
+<Options>
+<Field name="DateReq">2022-04-11</Field>
+<Field name="PriceCalcMethod">1</Field>
+<Field name="SalesSourceType">10</Field>
+<Field name="SalesSourceNo" />
+<Field name="Currency.Code" />
+</Options>
+<DataItems>
+<DataItem name="Item">VERSION(1) SORTING(Field1)</DataItem>
+<DataItem name="SalesPrices">VERSION(1) SORTING(Field1)</DataItem>
+<DataItem name="SalesLineDiscs">VERSION(1) SORTING(Field1)</DataItem>
+<DataItem name="Item Variant">VERSION(1) SORTING(Field2,Field1)</DataItem>
+<DataItem name="VariantSalesPrices">VERSION(1) SORTING(Field1)</DataItem>
+<DataItem name="VariantSalesLineDiscs">VERSION(1) SORTING(Field1)</DataItem>
+</DataItems>
+</ReportParameters>
